@@ -4,3 +4,7 @@ members = [
     "cart",
     "order",
 ]
+
+[workspace.metadata.cargo-workspaces]
+# Set this flag to false to allow different versions for individual crates
+independent_versions = true
